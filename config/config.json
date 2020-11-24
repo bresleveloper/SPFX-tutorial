@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "tut-ronit-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/tutRonit/TutRonitWebPart.js",
+          "manifest": "./src/webparts/tutRonit/TutRonitWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "TutRonitWebPartStrings": "lib/webparts/tutRonit/loc/{locale}.js"
+  }
+}
