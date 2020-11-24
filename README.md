@@ -28,6 +28,9 @@ gulp package-solution - TODO
 
 
 # Ariel
+once - `gulp trust-dev-cert`
+
+
 `gulp serve`
 
 `gulp build`
